@@ -37,7 +37,7 @@ public class Start {
         int sbnumber = sc.nextInt();
         sc.nextLine();
         storyBook[] sbarr = new storyBook[sbnumber];
-        for (int i = 0; i < 2; i++) {
+        for (int i = 0; i < sbnumber; i++) {
             System.out.println("Enter your book's details here : ");
             System.out.print("ISBN: ");
             String isbn = sc.nextLine();
