@@ -5,7 +5,7 @@ public class TextBook extends Book {
     int standard;
 
     public TextBook() {
-        System.out.println("Emoty constructor");
+        //System.out.println("Emoty constructor");
     }
 
     public TextBook(String isbn, String bookTitle, String authorName, double price, int availableQuantity,
